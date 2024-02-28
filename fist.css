@@ -1,0 +1,777 @@
+html{
+
+}
+    overflow-x: hidden;
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-image: url(https://i.pinimg.com/originals/1a/5d/8c/1a5d8c05200b6f1d9a56d8133b09923f.jpg);
+
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://i.pinimg.com/originals/1a/5d/8c/1a5d8c05200b6f1d9a56d8133b09923f.jpg);
+}
+#nav #startnav{
+    list-style-type: none;
+}
+#nav #startnav li img{
+   width: 70px;
+   height: 40px;
+   border-radius: 10px;
+   
+}
+#nav #midnav{
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+    
+}
+#nav #midnav li a{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+#nav #midnav li a:hover{
+     color: blueviolet;
+}
+#nav #endnav{
+    list-style-type: none;
+}
+
+#cdn{
+    position: absolute;
+    color: rgb(235, 235, 244);
+    left: 950px;
+    top: 20px;   
+}
+#cdn i{
+    padding: 10px;
+
+}
+/*================================================== navbar end ========================================================*/
+
+#hero{
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+ 
+    
+    
+}
+#hero div img{
+    width: 390px;
+    padding-top: 150;
+
+}
+
+#hero #hero1 {
+    padding-top: 100px;
+    list-style-type: none;
+
+    
+}
+
+#hero #hero1 li a:hover{
+    background-color: black;
+    color: #4ad0da;
+    transition: 0.5s;
+}
+/*============================================= ned hero section =================================================*/
+ #grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 80px;
+    margin: 90px;
+ }
+#grid #skills1{
+    color: white;
+    background-color: rgb(106, 14, 98);
+    padding: 40px;
+    width: 150px;
+    border-radius: 10px;
+    height: 140px;
+}
+#grid #skills2:hover{
+    background-color: rgb(208, 237, 15);
+    color: rgb(4, 65, 114);
+    transition: all.5s;
+}
+#grid #skills3:hover{
+    background-color: rgb(208, 237, 15);
+    color: rgb(4, 65, 114);
+    transition: all.5s;
+}
+#grid #skills1:hover{
+    background-color: rgb(208, 237, 15);
+    color: rgb(4, 65, 114);
+    transition: all.5s;
+}
+#grid #skills2{
+    color: white;
+    background-color: rgb(106, 14, 98);
+    padding: 40px;
+    width: 150px;
+    border-radius: 10px;
+    height: 140px;
+
+}
+#grid #skills3{
+    color: white;
+    background-color: rgb(106, 14, 98);
+    padding: 40px;
+    width: 150px;
+    border-radius: 10px;
+    height: 140px;
+}
+#about{
+    padding: 20px;
+    color: black;
+}
+#me{
+    color: red;
+    
+}
+
+#years{
+    display:flex;
+    color:white;
+    position: absolute;
+    top: 380px;
+    right: 520px;
+    
+}
+#bio{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    margin: 40px;
+    position: absolute;
+    right: 185px;
+    
+}
+#bio #years #sec{
+    margin: 10px;
+}
+#table{
+    display: flex;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 1600px;
+}
+#table1{
+    border: 2px solid brown;
+    margin: 5px;
+    padding: 30px;
+    width: 200px;
+    border-radius: 10px; 
+    
+}
+#table2{
+    border: 2px solid brown;
+    margin: 5px;
+    padding: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+#cv{
+  
+    color: black;
+    background-color: #4ad0da;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    list-style-type: none;
+    right: 420px;
+    position: absolute;
+    top: 1850px;
+}
+#cv1 li a{
+    color: black;
+    text-decoration: none;
+}
+#cv:hover{
+  background-color: rgb(211, 244, 49);
+    color: #4ad0da;
+    transition: all 0.5s;
+}
+
+
+#suit{
+    clip-path: polygon(13% 0, 100% 0%, 100% 100%, 14% 100%);
+    width: 300px;
+    height: 350px;
+    background-color: rgb(244, 169, 8);
+    position: absolute;
+    z-index: 2;
+    right: 700px;
+    top: 1405px;
+    border-radius: 10px;
+} 
+#suit:hover{
+    background-color:(#4ad0da);
+    transition: 0.5s;
+    scale: 0.5s;
+}
+#suit1{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 940px;
+    top: 1382px;
+    z-index: 3;
+}
+#laptop{
+    z-index: 4;
+    position: absolute;
+    right: 910px;
+    top: 1642px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#education{
+    border: 2px solid rgb(168, 192, 14);
+    width: 15px;
+    height: 15px;
+    padding: 20px;
+    color: rgb(231, 248, 248);
+    margin: 30px;
+    background-color: rgb(168, 192, 14);
+    border-radius: 10px;
+    position: absolute;
+    right: 960px;
+    top: 1525px;
+}
+#boxx{
+   
+
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 1970px;
+    right: 150px;
+}
+#boxx div {
+    border: 2px solid #4ad0da;
+    background-color: rgb(81, 80, 78);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    list-style: none;
+    color:  #4ad0da;
+    width: 150px;
+    display: flex;
+    height: 60px;
+}
+#boxx div:hover{
+    background-color: #4ad0da;
+    color: black;
+    transition: 0.5;
+}
+#boxx div li{
+    margin: 5px;
+}
+/* ======================================boxx end============================================== */
+#skil{
+    position: absolute;
+    top: 2250px;
+    right: 460px;
+}
+#skil div{
+    color: black;
+    margin: 6px;
+}
+#skil #blue{
+    color: #4ad0da;
+}
+
+#pro{
+    position: absolute;
+    top: 2400px;
+    right: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+ progress{
+    width: 400px;
+    height: 6px;
+   background: #4ad0da;
+ }
+ #pro div {
+    margin: 20px;
+    padding: 20px;
+    
+ }
+ #html{
+    color: white;
+    position: absolute;
+    top: 2425px;
+    right: 1038px;
+ }
+ #css{
+    color: white;
+    position: absolute;
+    top: 2500px;
+    right: 1048px;
+ }
+ #java{
+    color: white;
+    position: absolute;
+    top: 2570px;
+    right: 1008px;
+ }
+ #react{
+    color: white;
+    position: absolute;
+    top: 2425px;
+    right: 552px;
+ }
+ #vuo{
+    color: white;
+    position: absolute;
+    top: 2500px;
+    right: 562px;
+ }
+ #php{
+    color: white;
+    position: absolute;
+    top: 2570px;
+    right: 562px;
+ }
+ #html1{
+    color: white;
+    position: absolute;
+    top: 2425px;
+    right: 670px;
+    color: rgb(86, 249, 86);
+}
+#css2{
+    color: white;
+    position: absolute;
+    top: 2500px;
+    right: 670px;
+    color: rgb(86, 249, 86);
+ }
+ #java3{
+    color: white;
+    position: absolute;
+    top: 2570px;
+    right: 670px;
+    color: rgb(86, 249, 86);
+ }
+ #react4{
+    color: rgb(86, 249, 86);
+
+    position: absolute;
+    top: 2425px;
+    right: 190px;
+ }
+ #vuo5{
+    color: rgb(86, 249, 86);
+    position: absolute;
+    top: 2500px;
+    right: 188px;
+ }
+ #php6{
+    color: rgb(86, 249, 86);
+    position: absolute;
+    top: 2570px;
+    right: 190px;
+ }
+ /* ==================================skills end======================================================= */
+
+ #service{
+    position: absolute;
+    top: 2750px;
+    right: 400px;
+}
+#service div{
+    color: white;
+    margin: 6px;
+}
+#service #blue1{
+    color: #4ad0da;
+}
+
+#ser{
+    position: absolute;
+    top: 2870px;
+    display: grid ;
+    grid-template-columns:auto auto auto;
+   justify-content: space-evenly;
+   right: 250px;
+   
+}
+#ser div{
+    color: #4ad0da;
+    list-style: none;
+    border: 2px solid #4ad0da;
+    width: 200px;
+   height: 150px;
+   margin: 5px;
+   padding: 5px;
+   padding-top: 70px;
+   padding-bottom: 5px;
+   border-radius: 10px;
+   background-color: rgb(34, 38, 52);
+}
+#ser div:hover{
+    color: black;
+    background-color: #4ad0da;
+    transition: 0.5s;
+}
+/* ===================================service end============================================ */
+#resume{
+    position: absolute;
+    top: 3450px;
+    right: 460px;
+}
+#resume div{
+    color: #4ad0da;
+    margin: 6px;
+}
+#resume #resume1{
+    color: red;
+}
+#res{
+    position: absolute;
+    top:3680px ;
+    right: 390px;
+    display: grid ;
+    grid-template-columns:auto auto;
+}
+#res div{
+    color: white;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 90px;
+
+}
+#experience{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top:3630px ;
+    right: 750px;
+}
+#education3{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top:3630px ;
+    right: 500px;
+}
+/* ====================================Resume end====================================== */
+#Portfolio{
+        position: absolute;
+        top: 4070px;
+        right: 450px;
+    }
+    #Portfolio div{
+        color: white;
+        margin: 6px;
+    }
+    #Portfolio #Portfolio1{
+        color: #4ad0da;
+        
+    }
+#all{
+    position: absolute;
+    top: 4190px;
+    right: 400px;
+}
+#all div li {
+    list-style: none; 
+}
+#all div li a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+#all div li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+#all div ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#immg{
+    position: absolute;
+    top: 4260px;
+    right:180px;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+}
+#immg div{
+    width: 200px;
+    height: 200px; 
+    /* background-color: blueviolet; */
+    border: 2px solid black ;
+    margin: 2px;
+    border-radius: 10px;
+}
+ #be1{
+   overflow: hidden;
+}
+#be1 img{
+    width: 200px;
+    height: 200px;
+}
+#be1 img:hover{
+   scale: 1.3;
+   transition: 0.s;
+}
+ #be2{
+    overflow: hidden;
+
+ }
+ #be2 img{
+    width: 200px;
+    height: 200px;
+}
+#be2 img:hover{
+   scale: 1.3;  
+   transition: 0.5s;
+}
+ #immg #be3{
+    overflow: hidden;
+
+ }
+ #be3 img{
+    width: 200px;
+    height: 200px;
+}
+#be3 img:hover{
+   scale: 1.3;
+   transition: 0.5s;
+}
+ #immg #be4{
+     overflow: hidden;
+}
+ #be4 img{
+    width: 200px;
+    height: 200px;
+}
+#be4 img:hover{
+   scale: 1.3;
+   transition: 0.5s;
+}
+ #immg #be5{
+    overflow: hidden;
+
+ }
+ #be5 img{
+    width: 200px;
+    height: 200px;
+}
+#be5 img:hover{
+   scale: 1.3;
+   transition: 0.5s;
+}
+ #immg #be6{
+    overflow: hidden;
+
+ }
+ #be6 img{
+    width: 200px;
+    height: 200px;
+}
+#be6 img:hover{
+   scale: 1.3;
+   transition: 0.5s;
+}
+ #immg #be7{
+    overflow: hidden;
+
+ }
+ #be7 img{
+    width: 200px;
+    height: 200px;
+}
+#be7 img:hover{
+   scale: 1.3;
+   transition: 0.5s;
+}
+ #immg #be8{
+    overflow: hidden;
+
+ }
+ #be8 img{
+    width: 200px;
+    height: 200px;
+}
+#be8 img:hover{
+   scale: 1.3;
+   transition: 0.5s;
+}
+/* ====================================portfolio end================================================== */
+#row{
+ color: rgb(14, 13, 14);
+ position: absolute;
+ top: 4780px;
+ right: 180px;
+ display: grid ;
+ grid-template-columns: auto auto auto auto auto;
+ padding: 10px;
+ width: 800px;
+ border-radius: 10px;
+ background-color: rgb(201, 244, 8);
+ height: 90px;
+ padding-top: 30px;
+ font-size: 25px;
+}
+#row div{
+    margin: 20px;
+}
+
+/* ======================================================================================================= */
+
+#blog{
+    position: absolute;
+    top: 5050px;
+    right: 450px;
+}
+#blog div{
+    color: white;
+    margin: 6px;
+}
+#blog #blog1{
+    color: #4ad0da;
+    
+}
+#video{
+    position: absolute;
+    top: 5200px;
+    right: 430px;
+}
+/* =========================================video end ======================================================== */
+#contact{
+    position: absolute;
+    top: 5490px;
+    right: 450px;
+}
+#contact div{
+    color: white;
+    margin: 6px;
+}
+#contact #contact1{
+    color: #4ad0da;
+    
+}
+#phone{
+    position: absolute;
+    top: 5610px;
+    right: 450px;
+    color: white;
+    right: 750px;
+}
+#for{
+    position: absolute;
+    top: 5600px;
+    right: 200px;
+
+}
+#for1{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+#for2{
+    width: 200px;
+    height: 30px;
+    background-color: #2b2c2c;
+    border: 2px solid rgb(7, 6, 6);
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+
+}
+#for3{
+    width: 200px;
+    height: 30px;
+    background-color: #2b2c2c;
+    border: 2px solid rgb(7, 6, 6);
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+
+}
+#for4{
+    width: 200px;
+    height: 30px;
+    background-color: #2b2c2c;
+    border: 2px solid rgb(7, 6, 6);
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+
+}
+#for5{
+    width: 200px;
+    height: 30px;
+    background-color: #2b2c2c;
+    border: 2px solid rgb(7, 6, 6);
+     margin: 5px; 
+     border-radius: 10px;
+     color: white;
+
+
+}
+#for6{
+    width: 210px;
+    height: 90px;
+    background-color: #2b2c2c;
+    border: 2px solid rgb(15, 13, 13);
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+#button{
+    position: absolute;
+    top: 5800px;
+    right: 490px;
+    
+}
+#button button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #4ad0da;
+}
+/* =======================================contact end ==================================================== */
+#last{
+    position: absolute;
+    top: 5900px;
+    right: 130px;
+    display: flex;
+    border: 2px solid black;
+    width: 700px;
+    justify-content: space-evenly;
+    height: 30px;
+    padding: 90px;
+    border-radius: 10px;
+    background-color: rgb(28, 6, 62);
+}
+#last1{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(28, 6, 62);
+    color: white;
+}
+#last2{
+        margin-bottom: 30px;
+        color: white;
+}
