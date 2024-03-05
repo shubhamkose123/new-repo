@@ -1,22 +1,20 @@
 html{
-
-}
     overflow-x: hidden;
-
+}
 
 body{
     margin: 0px;
     padding: 0px;
 }
 #body{
-    background-image: url(https://i.pinimg.com/originals/1a/5d/8c/1a5d8c05200b6f1d9a56d8133b09923f.jpg);
+    background-image: url();   
 
 }
 
 #nav{
     display: flex;
     justify-content: space-evenly;
-    background-image: url(https://i.pinimg.com/originals/1a/5d/8c/1a5d8c05200b6f1d9a56d8133b09923f.jpg);
+    background-image: url(https://img.freepik.com/free-vector/black-business-background-with-blue-streaks_53876-100594.jpg?w=996&t=st=1709570523~exp=1709571123~hmac=e6ead9d1447934443879fb96e4a34ccbe4b4b7470daf9bec2c3d2244c8f49ade);
 }
 #nav #startnav{
     list-style-type: none;
@@ -40,7 +38,7 @@ body{
     
 }
 #nav #midnav li a:hover{
-     color: blueviolet;
+    color: rgb(16, 5, 169);
 }
 #nav #endnav{
     list-style-type: none;
@@ -59,7 +57,7 @@ body{
 /*================================================== navbar end ========================================================*/
 
 #hero{
-    
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/017/457/394/original/simple-background-with-gradient-shape-green-vector.jpg); */
     display: flex;
     justify-content: space-evenly;
     color: white;
@@ -68,18 +66,27 @@ body{
     
 }
 #hero div img{
-    width: 390px;
-    padding-top: 150;
-
+    width: 300px;
+    padding-top: 150px;
 }
 
 #hero #hero1 {
-    padding-top: 100px;
+    padding-top: 0%;
     list-style-type: none;
 
     
 }
 
+
+
+#hero #hero1 li a{
+    text-decoration: none;
+    color: black;
+    background-color: #4ad0da;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    
+}
 #hero #hero1 li a:hover{
     background-color: black;
     color: #4ad0da;
@@ -94,7 +101,7 @@ body{
  }
 #grid #skills1{
     color: white;
-    background-color: rgb(106, 14, 98);
+    background-color: rgb(4, 65, 114);
     padding: 40px;
     width: 150px;
     border-radius: 10px;
@@ -117,7 +124,7 @@ body{
 }
 #grid #skills2{
     color: white;
-    background-color: rgb(106, 14, 98);
+    background-color: rgb(4, 65, 114);
     padding: 40px;
     width: 150px;
     border-radius: 10px;
@@ -126,7 +133,7 @@ body{
 }
 #grid #skills3{
     color: white;
-    background-color: rgb(106, 14, 98);
+    background-color: rgb(4, 65, 114);
     padding: 40px;
     width: 150px;
     border-radius: 10px;
@@ -134,16 +141,16 @@ body{
 }
 #about{
     padding: 20px;
-    color: black;
+    color: white;
 }
 #me{
-    color: red;
+    color: #4ad0da;
     
 }
 
 #years{
     display:flex;
-    color:white;
+    color: white;
     position: absolute;
     top: 380px;
     right: 520px;
@@ -169,7 +176,7 @@ body{
     top: 1600px;
 }
 #table1{
-    border: 2px solid brown;
+    border: 2px solid white;
     margin: 5px;
     padding: 30px;
     width: 200px;
@@ -177,7 +184,7 @@ body{
     
 }
 #table2{
-    border: 2px solid brown;
+    border: 2px solid white;
     margin: 5px;
     padding: 30px;
     width: 200px;
@@ -217,7 +224,7 @@ body{
     border-radius: 10px;
 } 
 #suit:hover{
-    background-color:(#4ad0da);
+    background-color: rgb(213, 25, 4);
     transition: 0.5s;
     scale: 0.5s;
 }
@@ -287,7 +294,7 @@ body{
     right: 460px;
 }
 #skil div{
-    color: black;
+    color: white;
     margin: 6px;
 }
 #skil #blue{
@@ -437,11 +444,11 @@ body{
     right: 460px;
 }
 #resume div{
-    color: #4ad0da;
+    color: white;
     margin: 6px;
 }
 #resume #resume1{
-    color: red;
+    color: #4ad0da;
 }
 #res{
     position: absolute;
@@ -531,7 +538,7 @@ body{
 }
 #be1 img:hover{
    scale: 1.3;
-   transition: 0.s;
+   transition: 0.5s;
 }
  #be2{
     overflow: hidden;
@@ -542,7 +549,7 @@ body{
     height: 200px;
 }
 #be2 img:hover{
-   scale: 1.3;  
+   scale: 1.3;
    transition: 0.5s;
 }
  #immg #be3{
@@ -618,7 +625,7 @@ body{
 }
 /* ====================================portfolio end================================================== */
 #row{
- color: rgb(14, 13, 14);
+ color: rgb(14, 13, 13);
  position: absolute;
  top: 4780px;
  right: 180px;
@@ -627,7 +634,7 @@ body{
  padding: 10px;
  width: 800px;
  border-radius: 10px;
- background-color: rgb(201, 244, 8);
+ background-color: rgb(177, 154, 3);
  height: 90px;
  padding-top: 30px;
  font-size: 25px;
